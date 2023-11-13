@@ -1,0 +1,136 @@
+/* Reset some default styles */
+/* Regular Gotham font */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./src/fonts/gotham/Gotham-Medium_Web.woff2') format('woff2'),
+         url('./src/fonts/gotham/Gotham-MediumItalic_Web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply Gotham font to elements */
+
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Gotham, sans-serif;
+    background-color: #f7f7f7;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 36px 48px;
+    height: auto;
+    align-items: center;
+    display: block;
+    min-height: 200px;
+
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+.padding-8 {
+    padding: 8px;
+}
+
+.padding-left-72 {
+    padding-left: 72px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-38 {
+    font-size: 38px;
+}
+
+.footer {
+    text-align: right;
+    padding: 36px 72px;
+}
+
+.quote {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.quote-source {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #aaa;
+    text-align: inherit;
+}
+
+.work-experience {
+    display: flex;
+}
+
+.rescaled-image {
+    width: 400px; /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* Optional: Defines how the image should fit within the dimensions */
+  }
+
+.testimonial {
+    max-width: 600px;
+}
+
+.self-intro {
+    display: flex;
+    justify-content: center
+}
+
+.self-intro-text {
+    margin: 0 60px;
+    line-height: 1.7em;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
